@@ -1,4 +1,36 @@
 # Port-Capacity-Analysis-University-Project-
 
-This repository contains the code, data, and report for the university research project:
-“Exploring the Current and Future Scenario of Port Blair: A Simulation-Based Analysis of Harbour Operations”
+This repository contains the code and report for a harbour operations simulation project using a Discrete Event Simulation (DES) model. The project was conducted as part of a university research assignment to analyze the current and future capacity of Port Blair harbour. The study was prepared by:
+
+Kavish Sharma
+
+---
+
+## Project Overview
+The project uses a DES model to simulate the operations of Port Blair’s harbour under both **Business-as-Usual (BAU)** and **Future Scenarios (FS)**. The simulation answers key questions about the harbour’s ability to handle current and increased ship arrivals, and whether upgrades to the lock or unloading processes are required.  
+
+Historical data on **ship interarrival, locking, and unloading times** were analyzed to fit appropriate statistical distributions. The simulation model was validated using **Verification, Validation, Accreditation & Acceptance (VV&A)**, and the results were used to answer the research questions reliably.
+
+---
+
+## Key Questions Addressed
+1. Is the harbour’s capacity sufficient to handle current demand?  
+2. Would upgrading the lock or unloading processes improve efficiency under current conditions?  
+3. If ship arrivals increase by 10% in the future, will the harbour require improvements to handle the additional traffic?  
+
+**Summary of Findings:**  
+- The harbour can handle current demand without issues.  
+- Process upgrades are unnecessary under current conditions.  
+- Even with a 10% increase in arrivals, the harbour can accommodate ships without requiring improvements.
+
+---
+
+## Methodology
+- Historical data was cleaned and analyzed to identify **distribution types and parameters** using **histograms and QQ-plots**.  
+- A DES model was implemented with **two FIFO queues** (sea queue and harbour queue) and servers for **lock and dock operations**.  
+- The simulation was run for **200 realizations**, excluding burn-in periods calculated using **Welch’s method**.  
+- **Time average** and **ensemble average** metrics were used to analyze system performance.
+
+---
+
+## Repository Structure
