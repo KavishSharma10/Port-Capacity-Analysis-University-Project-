@@ -44,15 +44,15 @@ Contains the full project report, simulation functions, the harness file, and fi
 - `/figures` – Plots and figures used to identify distributions, estimate parameters, and answer research questions.
 - Full report with methodology, results, and conclusions.
 
-### data-file
+### data branch
 Contains simulation results for 200 seeds under current traffic conditions. Each seed folder includes:
 
 - `entity file` – Features: `id`, `arrival_time`, `start_service_times`, `completion_time`.
 - `state file` – Features: `time`, `event_id`, `event_type`, `timing`, `length_event_list`, `length_queue1`, `length_queue2`, `in_service1`, `in_service2`.
 - `weighted average file` – Weighted averages over 80 hours showing `time`, `total_ships`, and `harbour_ships`.
 
-### data-file-10percent
-Same as `data-file`, but with a **10% increase in ship arrivals** to simulate future scenario traffic. Structure and files are identical, allowing comparison with current traffic results.
+### data_10_perecnt_increase branch
+Same as `data` branch, but with a **10% increase in ship arrivals** to simulate future scenario traffic. Structure and files are identical, allowing comparison with current traffic results.
 """
 
 # Write to README.md
