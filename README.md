@@ -53,5 +53,4 @@ Contains simulation results for 200 seeds under current traffic conditions. Each
 
 ### data_10_perecnt_increase branch
 Same as `data` branch, but with a **10% increase in ship arrivals** to simulate future scenario traffic. Structure and files are identical, allowing comparison with current traffic results.
-"""
 
