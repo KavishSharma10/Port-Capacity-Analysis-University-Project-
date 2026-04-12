@@ -53,6 +53,6 @@ Contains simulation results for 200 seeds under current traffic conditions. Each
 - `state file` – Features: `time`, `event_id`, `event_type`, `timing`, `length_event_list`, `length_queue1`, `length_queue2`, `in_service1`, `in_service2`.
 - `weighted average file` – Weighted averages over 80 hours showing `time`, `total_ships`, and `harbour_ships`.
 
-### data_10_perecnt_increase branch
+### data_10_percent_increase branch
 Same as `data` branch, but with a **10% increase in ship arrivals** to simulate future scenario traffic. Structure and files are identical, allowing comparison with current traffic results.
 
